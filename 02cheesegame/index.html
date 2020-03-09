@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>チーズ集め</title>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- タイトル -->
+  <h1>チーズ集め</h1>
+  <!-- マス -->
+  <div class="ue">
+    <div class="masu">
+      <ul id="line_A">
+        <li class="A d" id="A0">
+          <img src="img/kago.jpg" alt="" />
+        </li>
+        <li class="A a" id="A1">
+          <img src="img/kago.jpg" alt="" />
+        </li>
+        <li class="A b" id="A2">
+          <img src="img/kago.jpg" alt="" />
+        </li>
+        <li class="A c" id="A3">
+          <img src="img/kago.jpg" alt="" />
+        </li>
+      </ul>
+
+      <ul id="line_B">
+        <li class="B d" id="A4">
+          <img src="img/kago.jpg" alt="" />
+        </li>
+        <li class="B a" id="A5">
+          <img src="img/kago.jpg" alt="" />
+        </li>
+        <li class="B b" id="A6">
+          <img src="img/kago.jpg" alt="" />
+        </li>
+        <li class="B c" id="A7">
+          <img src="img/kago.jpg" alt="" />
+        </li>
+      </ul>
+
+      <ul id="line_C">
+        <li class="C d" id="A8">
+          <img src="img/kago.jpg" alt="" />
+        </li>
+        <li class="C a" id="A9">
+          <img src="img/kago.jpg" alt="" />
+        </li>
+        <li class="C b" id="A10">
+          <img src="img/kago.jpg" alt="" />
+        </li>
+        <li class="C c" id="A11">
+          <img src="img/kago.jpg" alt="" />
+        </li>
+      </ul>
+    </div>
+
+    <!-- ランキング -->
+    <div class="migi">
+      <div class="rk_w">
+        <h2 class="rk_t">ランキング</h2>
+        <dl class="rk">
+          <!-- 1位 -->
+          <h3 class="rk_1">1位</h3>
+          <dt class="rd_1">ラウンド：</dt>
+          <dd class="rd_1_s">3</dd>
+          <dt class="scr_1">スコア：</dt>
+          <dd class="scr_1_s">1000</dd>
+          <!-- 2位 -->
+          <h3 class="rk_2">2位</h3>
+          <dt class="rd_2">ラウンド：</dt>
+          <dd class="rd_2_s">3</dd>
+          <dt class="scr_2">スコア：</dt>
+          <dd class="scr_2_s">900</dd>
+          <!-- 3位 -->
+          <h3 class="rk_3">3位</h3>
+          <dt class="rd_3">ラウンド：</dt>
+          <dd class="rd_3_s">2</dd>
+          <dt class="scr_3">スコア：</dt>
+          <dd class="scr_3_s">800</dd>
+          <!-- 4位 -->
+          <h3 class="rk_4">4位</h3>
+          <dt class="rd_4">ラウンド：</dt>
+          <dd class="rd_4_s">1</dd>
+          <dt class="scr_4">スコア：</dt>
+          <dd class="scr_4_s">700</dd>
+          <!-- 5位 -->
+          <h3 class="rk_5">5位</h3>
+          <dt class="rd_5">ラウンド：</dt>
+          <dd class="rd_5_s">1</dd>
+          <dt class="scr_5">スコア：</dt>
+          <dd class="scr_5_s">600</dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+
+  <!-- 手札 -->
+  <div class="sita">
+    <ul class="tefuda">
+      <li id="T0"><img src="img/sara.png" alt=""></li>
+      <li id="T1"><img src="img/sara.png" alt=""></li>
+      <li id="T2"><img src="img/sara.png" alt=""></li>
+      <li id="T3"><img src="img/sara.png" alt=""></li>
+      <li id="T4"><img src="img/sara.png" alt=""></li>
+    </ul>
+    <!-- スコア -->
+    <div class="scr_w">
+      <h2 class="scr_t">スコア</h2>
+      <dl class="scr_n">
+        <dt class="rd">ラウンド：</dt>
+        <dd class="rd_s">1</dd>
+        <dt class="scr">スコア：</dt>
+        <dd class="scr_s">0</dd>
+      </dl>
+
+      <div class="life"><img src="img/life2.png" alt=""></div>
+    </div>
+    <!-- ルール説明 -->
+    <div class="btn_w">
+      <div id="ru_btn">
+        <img src="img/ru_btn.png" alt="">
+      </div>
+      <div id="reset_btn">
+        <img src="img/reset_btn.png" alt="">
+      </div>
+    </div>
+  </div>
+
+  <!-- ルール説明本文 -->
+  <div class="ru" style="display: none;">
+    <!-- <h3>遊び方</h3> -->
+    <div class="ru0">
+      <p>
+        <img id="ru1" src="img/setumei01.png" alt="">
+        <img id="ru2" src="img/setumei02.png" alt="">
+      </p>
+    </div>
+    <div class="ru_next_btn">
+      <img src="img/next.png" alt="">
+    </div>
+  </div>
+
+  <!-- リザルト -->
+  <div class="res" style="display: none;">
+    <div class="rst_w">
+      <h2 class="res_t">リザルト</h2>
+      <dl class="res_sum">
+        <dt class="res_y">チーズ</dt>
+        <dd class="tizu_p">0</dd>
+        <dt class="res_y">レア</dt>
+        <dd class="rea_p">0</dd>
+        <dt class="res_y">レアコンプ</dt>
+        <dd class="comp">0</dd>
+        <dt class="res_y">ノーミス</dt>
+        <dd class="miss">0</dd>
+      </dl>
+      <dl class="res_scr">
+        <dt class="rd">ラウンド：</dt>
+        <dd class="rd_s">1</dd>
+        <dt class="scr">スコア：</dt>
+        <dd class="scr_s">0</dd>
+      </dl>
+      <div class="next_btn">
+        <img src="img/next.png" alt="">
+      </div>
+    </div>
+  </div>
+  <!-- ゲームオーバー ランキング -->
+  <div class="gameover" style="display: none;">
+    <div class="gameover_w">
+      <h2 class="gameover_t">ゲームオーバー</h2>
+      <dl class="gameover_scr">
+        <dt class="rd">ラウンド：</dt>
+        <dd class="rd_s">1</dd>
+        <dt class="scr">スコア：</dt>
+        <dd class="scr_s">0</dd>
+      </dl>
+      <h3 class="rk_gt">ランキング</h3>
+      <dl class="rk_g">
+        <!-- 1位 -->
+        <h4 class="rk_1">1位</h4>
+        <dt class="rd_1">ラウンド：</dt>
+        <dd class="rd_1_s">3</dd>
+        <dt class="scr_1">スコア：</dt>
+        <dd class="scr_1_s">1000</dd>
+        <!-- 2位 -->
+        <h4 class="rk_2">2位</h4>
+        <dt class="rd_2">ラウンド：</dt>
+        <dd class="rd_2_s">3</dd>
+        <dt class="scr_2">スコア：</dt>
+        <dd class="scr_2_s">900</dd>
+        <!-- 3位 -->
+        <h4 class="rk_3">3位</h4>
+        <dt class="rd_3">ラウンド：</dt>
+        <dd class="rd_3_s">2</dd>
+        <dt class="scr_3">スコア：</dt>
+        <dd class="scr_3_s">800</dd>
+        <!-- 4位 -->
+        <h4 class="rk_4">4位</h4>
+        <dt class="rd_4">ラウンド：</dt>
+        <dd class="rd_4_s">1</dd>
+        <dt class="scr_4">スコア：</dt>
+        <dd class="scr_4_s">700</dd>
+        <!-- 5位 -->
+        <h4 class="rk_5">5位</h4>
+        <dt class="rd_5">ラウンド：</dt>
+        <dd class="rd_5_s">1</dd>
+        <dt class="scr_5">スコア：</dt>
+        <dd class="scr_5_s">600</dd>
+      </dl>
+      <div class="next_btn">
+        <img src="img/next.png" alt="">
+      </div>
+    </div>
+  </div>
+  <!-- クリックブロック -->
+  <p class="cb" id="B0"></p>
+  <p class="cb" id="B1"></p>
+  <p class="cb" id="B2"></p>
+  <p class="cb" id="B3"></p>
+  <p class="cb" id="B4"></p>
+  <p class="cb" id="B5"></p>
+  <p class="cb" id="B6"></p>
+  <p class="cb" id="B7"></p>
+  <p class="cb" id="B8"></p>
+  <p class="cb" id="B9"></p>
+  <p class="cb" id="B10"></p>
+  <p class="cb" id="B11"></p>
+  <!-- 戻るボタン -->
+  <div id="back"><a href="../index.php">戻る</a></div>
+  <!-- js -->
+  <!-- Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase.js"></script>
+  <!-- jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- メイン -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
