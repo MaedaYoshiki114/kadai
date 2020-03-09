@@ -1,0 +1,122 @@
+/* 全体 */
+* {
+  box-sizing: border-box;
+}
+
+/* この下から記述 */
+body {
+  width: 1200px;
+  margin: auto;
+  background-color: #7fff7f;
+}
+h1 {
+  font-size: 28px;
+  margin: 15px auto;
+  text-align: center;
+}
+.tefuda {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  background-color: #ff7f7f;
+}
+.tefuda img {
+  width: 150px;
+  margin: 8px;
+}
+.center {
+  display: flex;
+  width: 1200px;
+}
+.battle_w {
+  width: 560px;
+  background-color: #ffff7f;
+  margin: 20px auto;
+}
+.seiseki {
+  display: flex;
+  width: 280px;
+  margin: auto;
+}
+.seiseki dt {
+  font-size: 20px;
+  width: 70px;
+}
+.seiseki dd {
+  font-size: 20px;
+  width: 70px;
+}
+.battle {
+  display: flex;
+}
+.battle img {
+  width: 200px;
+  height: 312.5px;
+  border: #fdfdfd 2px;
+  margin: 10px 38px;
+}
+.sute {
+  width: 200px;
+  height: 300px;
+  background-color: #a0a0a0;
+  margin-top: 45px;
+}
+.sute img {
+  width: 180px;
+  border: #fdfdfd 2px;
+  margin: 25px 10px;
+}
+.rock {
+  background: url("../img/rock.jpg");
+  background-size: cover;
+  width: 150px;
+  height: 208.4px;
+  margin: 8px;
+}
+.scissors {
+  background: url("../img/scissors.jpg");
+  background-size: cover;
+  width: 150px;
+  height: 208.4px;
+  margin: 8px;
+}
+.paper {
+  background: url("../img/paper.jpg");
+  background-size: cover;
+  width: 150px;
+  height: 208.4px;
+  margin: 8px;
+}
+.tag {
+  display: flex;
+  font-size: 16px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.tag p {
+  font-size: 28px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+.sute p {
+  font-size: 48px;
+  text-align: center;
+  margin: 15px auto;
+}
+/* 戻るボタン */
+#back {
+  position: fixed;
+  top: 30px;
+  left: 20px;
+}
+#back a {
+  background-color: #999;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px 20px;
+}
+#back a:hover {
+  background-color: #666;
+  text-decoration: none;
+}

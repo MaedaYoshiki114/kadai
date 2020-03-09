@@ -1,0 +1,168 @@
+.menew1 {
+  display: flex;
+  width: 600px;
+}
+.menew1 li {
+  width: 150px;
+  background-color: #bfbfbf;
+}
+.top {
+  width: 1080px;
+  height: 600px;
+  position: relative;
+  background-image: url(../img/sitagaki.png);
+}
+.top1 {
+  width: 400px;
+  padding: 15px 16px;
+  background-color: #942343;
+  text-align: center;
+  font-size: 36px;
+  color: #ffffff;
+  border-radius: 80px;
+  position: absolute;
+  top: 213px;
+  left: 319px;
+}
+.top2 {
+  width: 175px;
+  padding: 10px 10px;
+  background-color: #005c42;
+  text-align: center;
+  font-size: 34px;
+  color: #ffffff;
+  border-radius: 45px;
+}
+.top3 {
+  width: 140px;
+  padding: 4px 12px;
+  background-color: #0075c2;
+  text-align: center;
+  font-size: 26px;
+  color: #ffffff;
+  border-radius: 30px;
+}
+.top4 {
+  width: 92px;
+  padding: 4px 8px;
+  background-color: #bee0c2;
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+  border-radius: 30px;
+}
+#top_bannnou {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#top_koujyou {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#top_mondai {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#top_it {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#top_denki {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#top_kikai {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#top_mokuhyou {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#top_syakou {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#top_kyuusyuu {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#top_aidhia {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#top_bunnseki {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#top_handa {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#top_cgengo {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#top_html {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#top_js {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#top_css {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#top_maikonn {
+  position: absolute;
+  top: 7px;
+  left: 173px;
+}
+#top_sekkei {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#top_yousetu {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#top_bannkinn {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#top_furaisu {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#top_sennbann {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#top_kumitate {
+  position: absolute;
+  top: 464px;
+  left: 340px;
+}

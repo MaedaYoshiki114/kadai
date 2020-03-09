@@ -1,0 +1,103 @@
+body {
+  width: 800px;
+  height: 600px;
+  margin: auto;
+  background-color: #a3ffa3;
+}
+.bg {
+  width: 800px;
+  height: 500px;
+  background: url("../img/back.png");
+  background-size: cover;
+  position: relative;
+}
+.top {
+  width: 800px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+/* ステータス */
+.status {
+  display: flex;
+  background: #d6ebff;
+  box-shadow: 0px 0px 0px 5px #d6ebff;
+  border: dashed 2px white;
+}
+dl dt img {
+  width: 30px;
+  height: 30px;
+}
+dl dd {
+  width: 300px;
+  font-size: 25px;
+  text-align: end;
+}
+/* コレクションボタン */
+#corection {
+  width: 160px;
+  height: 26px;
+  font-size: 25px;
+  background: #d6ebff;
+  box-shadow: 0px 0px 0px 5px #d6ebff;
+  border: dashed 2px white;
+}
+form {
+  width: 300px;
+  margin: auto;
+}
+#btn_w {
+  width: 300px;
+  margin: auto;
+  margin-top: 30px;
+}
+#try_btn {
+  width: 300px;
+  height: 70px;
+  text-decoration: none;
+  background: #ffddbc;
+  box-shadow: 0px 0px 0px 5px #ffddbc;
+  border: dashed 2px white;
+  font-size: 47px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+#btn_w:hover {
+  cursor: pointer;
+  transform: scale(1.1, 1.1);
+}
+.colle_view {
+  width: 570px;
+  height: 420px;
+  position: absolute;
+  background: #ffddbc;
+  box-shadow: 0px 0px 0px 5px #ffddbc;
+  border: dashed 2px white;
+  top: 35px;
+  left: 110px;
+}
+.colle_view dl {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+  text-align: end;
+}
+.colle_view dt,
+.colle_view dd {
+  width: 80px;
+}
+.comp_imgs {
+  display: flex;
+  flex-wrap: wrap;
+}
+.comp_imgs li {
+  width: 170px;
+  height: 110px;
+  margin: 10px;
+  background-color: #bfbfbf;
+}
+.comp_imgs img {
+  width: 170px;
+  height: 110px;
+}

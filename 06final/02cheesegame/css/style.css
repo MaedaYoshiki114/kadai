@@ -1,0 +1,427 @@
+/* 全体設定 */
+body {
+  background-color: #00a381;
+  width: 1440px;
+  height: 900px;
+  margin-left: 69px;
+}
+h1 {
+  font-size: 48px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-weight: bolder;
+}
+h2 {
+  font-size: 28px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-weight: bolder;
+}
+.ue {
+  display: flex;
+}
+.migi {
+  display: flex;
+  flex-direction: column;
+}
+.sita {
+  display: flex;
+  margin-left: 8px;
+}
+/* マス */
+.masu {
+  width: 1180px;
+  height: 690px;
+  margin-top: 10px;
+}
+#line_A {
+  display: flex;
+  margin: 0;
+}
+#line_B {
+  display: flex;
+  margin: 0;
+}
+#line_C {
+  display: flex;
+  margin: 0;
+}
+.masu li img {
+  width: 275px;
+  height: 210px;
+  margin: 10px;
+  color: aliceblue;
+  background-color: #fff;
+  border: black 2px;
+}
+/* ランキング */
+.rk_t {
+  width: 260px;
+  font-size: 26px;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+}
+.rk_w {
+  width: 260px;
+  height: 678px;
+  background-color: #bcbcff;
+  margin-top: 18px;
+}
+.rk {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+.rk_w h3 {
+  width: 260px;
+  font-size: 24px;
+  margin-top: 30px;
+}
+.rk_w dt {
+  width: 110px;
+  font-size: 22px;
+  margin-top: 10px;
+}
+.rk_w dd {
+  width: 130px;
+  text-align: right;
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+/* 手札 */
+.tefuda {
+  display: flex;
+  width: 905px;
+  height: 147px;
+  background-color: #ff7f7f;
+  margin-top: 10px;
+}
+.tefuda li img {
+  width: 141px;
+  height: 107px;
+  margin: 20px;
+  background-color: #ffc1c1;
+}
+/* スコア */
+.scr_w {
+  width: 255px;
+  height: 147px;
+  margin-top: 10px;
+  background-color: #93ff93;
+}
+.scr_t {
+  font-size: 26px;
+  margin: 10px auto;
+  text-align: center;
+}
+.scr_n {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+.scr_n dt {
+  width: 110px;
+  font-size: 22px;
+}
+.scr_n dd {
+  width: 120px;
+  font-size: 22px;
+  text-align: right;
+}
+.life img {
+  width: 230px;
+  margin-left: 13px;
+}
+/* ルール説明ボタン */
+.btn_w {
+  display: flex;
+  flex-wrap: wrap;
+  width: 260px;
+  height: 147px;
+  margin-top: 10px;
+}
+.btn_w img {
+  width: 240px;
+  height: 73px;
+  margin-left: 30px;
+}
+/* ルール説明本文 */
+.ru {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  position: relative;
+  position: absolute;
+  top: 0; /* 上からの位置指定 */
+  bottom: 0; /* 下からの位置指定 */
+  left: 0; /* 左からの位置指定 */
+  right: 0; /* 右からの位置指定 */
+  margin: auto; /* 位置調整と組み合わせて上下中央に */
+}
+.ru p {
+  width: 2000px;
+  height: 880px;
+  display: flex;
+  margin: 0;
+}
+
+.ru0 img {
+  float: left;
+  cursor: pointer;
+  width: 1000px;
+  height: 880px;
+}
+.ru .ru0 {
+  width: 1000px;
+  height: 880px;
+  margin: auto;
+  margin-top: 35px;
+  overflow: hidden;
+  display: flex;
+}
+.ru_next_btn img {
+  width: 200px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+/* リザルト */
+.res {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  position: relative;
+  position: absolute;
+  top: 0; /* 上からの位置指定 */
+  bottom: 0; /* 下からの位置指定 */
+  left: 0; /* 左からの位置指定 */
+  right: 0; /* 右からの位置指定 */
+  margin: auto; /* 位置調整と組み合わせて上下中央に */
+}
+.rst_w {
+  width: 90%;
+  height: 90%;
+  background: url("../img/res_bg.png");
+  background-size: cover;
+  position: relative;
+  margin: auto;
+}
+.res_t {
+  font-size: 65px;
+  padding-top: 50px;
+}
+.res_scr {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 120px;
+  width: 800px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.res_scr dt {
+  width: 265px;
+  font-size: 52px;
+  margin-top: 10px;
+}
+.res_scr dd {
+  width: 135px;
+  text-align: right;
+  font-size: 52px;
+  margin-top: 10px;
+}
+.res_sum {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 30px;
+  width: 430px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.res_sum dt {
+  width: 265px;
+  font-size: 52px;
+  margin-top: 10px;
+}
+.res_sum dd {
+  width: 135px;
+  text-align: right;
+  font-size: 52px;
+  margin-top: 10px;
+}
+.next_btn img {
+  width: 300px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+/* ゲームオーバー */
+.gameover {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  position: relative;
+  position: absolute;
+  top: 0; /* 上からの位置指定 */
+  bottom: 0; /* 下からの位置指定 */
+  left: 0; /* 左からの位置指定 */
+  right: 0; /* 右からの位置指定 */
+  margin: auto; /* 位置調整と組み合わせて上下中央に */
+}
+.gameover_w {
+  width: 90%;
+  height: 90%;
+  background: url("../img/gameover_bg.jpg");
+  background-size: cover;
+  position: relative;
+  margin: auto;
+}
+.gameover_t {
+  font-size: 65px;
+  padding-top: 30px;
+}
+.gameover_scr {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 800px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.gameover_scr dt {
+  width: 265px;
+  font-size: 52px;
+  margin-top: 10px;
+}
+.gameover_scr dd {
+  width: 135px;
+  text-align: right;
+  font-size: 52px;
+  margin-top: 10px;
+}
+.gameover .rk {
+  width: 260px;
+}
+.rk_gt {
+  width: 400px;
+  font-size: 65px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  margin-top: 62px;
+}
+.rk_g {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 900px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.rk_g h4 {
+  width: 140px;
+  font-size: 52px;
+  margin-top: 25px;
+}
+.rk_g dt {
+  width: 265px;
+  font-size: 52px;
+  margin-top: 25px;
+}
+.rk_g dd {
+  width: 100px;
+  text-align: right;
+  font-size: 52px;
+  margin-top: 25px;
+}
+/* クリックブロック */
+.cb {
+  display: none;
+  width: 275px;
+  height: 210px;
+  padding: 12px;
+  font-size: 38px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+#B0 {
+  position: absolute;
+  top: 88px;
+  left: 69px;
+}
+#B1 {
+  position: absolute;
+  top: 88px;
+  left: 364px;
+}
+#B2 {
+  position: absolute;
+  top: 88px;
+  left: 662px;
+}
+#B3 {
+  position: absolute;
+  top: 88px;
+  left: 958px;
+}
+#B4 {
+  position: absolute;
+  top: 321px;
+  left: 69px;
+}
+#B5 {
+  position: absolute;
+  top: 321px;
+  left: 364px;
+}
+#B6 {
+  position: absolute;
+  top: 321px;
+  left: 662px;
+}
+#B7 {
+  position: absolute;
+  top: 321px;
+  left: 958px;
+}
+#B8 {
+  position: absolute;
+  top: 554px;
+  left: 69px;
+}
+#B9 {
+  position: absolute;
+  top: 554px;
+  left: 364px;
+}
+#B10 {
+  position: absolute;
+  top: 554px;
+  left: 662px;
+}
+#B11 {
+  position: absolute;
+  top: 554px;
+  left: 958px;
+}
+/* 戻るボタン */
+#back {
+  position: fixed;
+  top: 30px;
+  left: 20px;
+}
+#back a {
+  background-color: #999;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px 20px;
+}
+#back a:hover {
+  background-color: #666;
+  text-decoration: none;
+}

@@ -1,0 +1,109 @@
+body {
+  width: 750px;
+  margin: auto;
+  /* background-color: #00bfff; */
+  background: url("../img/back.jpg");
+  background-size: cover;
+}
+h1 {
+  width: 750px;
+  font-size: 32px;
+  text-align: center;
+  background-color: #191970;
+  color: #fff;
+  margin: auto;
+  margin-top: 30px;
+  padding: 15px 0;
+}
+/* ユーザーネーム */
+.name_w {
+  display: flex;
+  width: 750px;
+  height: 40px;
+  background-color: #fbfbfb;
+}
+.name_w p {
+  font-size: 16px;
+  width: 190px;
+  padding: 15px;
+}
+#username {
+  box-sizing: border-box;
+  width: 520px;
+  height: 32px;
+  font-size: 16px;
+  border: solid 1px #bfbfbf;
+  margin: 4px;
+}
+/* 出力画面 */
+#output {
+  overflow: auto;
+  width: 750px;
+  height: 800px;
+  margin: auto;
+  border: 2px dotted #ffffff;
+  color: #000000;
+  background-color: #5bc6ed;
+  line-height: 1.5em;
+  /* 下からせり出す */
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column-reverse;
+}
+.coment {
+  width: 300px;
+  margin: 30px 15px;
+  padding: 10px;
+}
+.coment:nth-child(odd) {
+  text-align: left;
+  background-color: #bfbfbf;
+}
+.coment:nth-child(even) {
+  text-align: right;
+  margin: 0 0 0 auto;
+  background-color: lime;
+}
+.username_out {
+  color: bisque;
+  font-weight: bold;
+}
+
+/* 本文　送信 */
+.textIn {
+  display: flex;
+  width: 750px;
+  height: 40px;
+  background-color: #fbfbfb;
+}
+#text {
+  box-sizing: border-box;
+  width: 684px;
+  height: 32px;
+  font-size: 16px;
+  border: solid 1px #bfbfbf;
+  margin: 4px;
+}
+#send {
+  width: 48px;
+  height: 32px;
+  margin: 4px;
+  background-color: greenyellow;
+}
+/* 戻るボタン */
+#back {
+  position: fixed;
+  top: 30px;
+  left: 20px;
+}
+#back a {
+  background-color: #999;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px 20px;
+}
+#back a:hover {
+  background-color: #666;
+  text-decoration: none;
+}

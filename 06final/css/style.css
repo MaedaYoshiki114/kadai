@@ -1,0 +1,17 @@
+body {
+  width: 1080px;
+  background-image: url(../img/bg.jpg);
+  margin: auto;
+  line-height: 1.8;
+}
+h1 {
+  font-size: 28px;
+  margin: auto;
+  margin-top: 30px;
+  margin: auto;
+}
+h2 {
+  margin: auto;
+  font-size: 28px;
+  margin-top: 30px;
+}
